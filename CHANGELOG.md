@@ -1,3 +1,9 @@
+## 2.1.0 (2016-02-25)
+
+#### Bug Fixes
+
+* prevent form submit on press ([dda86a12](https://github.com/ubilabs/react-geosuggest/commit/dda86a124a68ccf03220afb5f1796e99f183713e), closes [#49](https://github.com/ubilabs/react-geosuggest/issues/49))
+
 ## 2.0.0 (2016-02-25)
 #### First release
 
