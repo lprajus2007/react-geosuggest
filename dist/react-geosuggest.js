@@ -333,10 +333,20 @@ var Geosuggest = _react2['default'].createClass({
         _react2['default'].createElement(
           'ul',
           { className: this.getSuggestsClasses() },
-          this.getSuggestItems()
+          this.getSuggestItems(),
+          this.poweredByGoogle()
         )
       )
     );
+  },
+
+  poweredByGoogle: function poweredByGoogle() {
+    var google = _react2['default'].createElement('div', { style: { width: '144px', height: '21px', float: 'right', backgroundImage: 'url(' + '//developers.google.com/places/documentation/images/powered-by-google-on-white.png)', backgroundRepeat: 'no-repeat' } });
+    return _react2['default'].createElement(_GeosuggestItem2['default'], {
+      key: 'google-logo',
+      suggest: { label: google },
+      isActive: false,
+      onSuggestSelect: function () {} });
   },
 
   /**
@@ -412,10 +422,12 @@ var GeosuggestItem = _react2['default'].createClass({
    * @return {Function} The React element to render
    */
   render: function render() {
+    var clas = this.getSuggestClasses();
+    clas += typeof this.props.suggest.label !== 'string' ? 'invalidate' : '';
     return (// eslint-disable-line no-extra-parens
       _react2['default'].createElement(
         'li',
-        { className: this.getSuggestClasses(),
+        { className: clas,
           onClick: this.onClick },
         this.props.suggest.label
       )
