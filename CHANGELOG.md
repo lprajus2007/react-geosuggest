@@ -1,22 +1,7 @@
-## 2.1.0 (2016-02-25)
+## 2.0.0 (2016-02-25)
 #### First release
 
 * Fix issues with npm install from tag
-
-
-
-
-### 2.0.3 (2016-02-25)
-* success!
-
-### 2.0.2 (2016-02-25)
-new patch
-
-### 2.0.1 (2016-02-25)
-* resolve issue with patch
-
-## 2.0.0 (2016-02-25)
-resolve tag issue
 
 #### Bug Fixes
 
