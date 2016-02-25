@@ -341,7 +341,7 @@ var Geosuggest = _react2['default'].createClass({
   },
 
   poweredByGoogle: function poweredByGoogle() {
-    var google = _react2['default'].createElement('div', { style: { width: '144px', height: '21px', float: 'right', backgroundImage: 'url(' + '//developers.google.com/places/documentation/images/powered-by-google-on-white.png)', backgroundRepeat: 'no-repeat' } });
+    var google = _react2['default'].createElement('div', { className: 'poweredByGoogle' });
     return _react2['default'].createElement(_GeosuggestItem2['default'], {
       key: 'google-logo',
       suggest: { label: google },
