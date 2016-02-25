@@ -314,8 +314,20 @@ const Geosuggest = React.createClass({
           onBlur={this.hideSuggests} />
         <ul className={this.getSuggestsClasses()}>
           {this.getSuggestItems()}
+          {this.poweredByGoogle()}
         </ul>
       </div>
+    );
+  },
+
+  poweredByGoogle() {
+    let google = <div style={{width: '144px', height: '21px', float: 'right', backgroundImage: 'url(' + '//developers.google.com/places/documentation/images/powered-by-google-on-white.png)', backgroundRepeat: 'no-repeat'}}></div>;
+    return (
+      <GeosuggestItem
+        key={'google-logo'}
+        suggest={{label: google}}
+        isActive={false}
+        onSuggestSelect={() => {}} />
     );
   },
 
