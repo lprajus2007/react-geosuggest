@@ -321,7 +321,7 @@ const Geosuggest = React.createClass({
   },
 
   poweredByGoogle() {
-    let google = <div style={{width: '144px', height: '21px', float: 'right', backgroundImage: 'url(' + '//developers.google.com/places/documentation/images/powered-by-google-on-white.png)', backgroundRepeat: 'no-repeat'}}></div>;
+    let google = <div className="poweredByGoogle"></div>;
     return (
       <GeosuggestItem
         key={'google-logo'}

@@ -30,7 +30,7 @@ const GeosuggestItem = React.createClass({
    */
   render: function() {
     let clas = this.getSuggestClasses();
-    clas += (typeof this.props.suggest.label) !== 'string' ? 'invalidate' : '' ;
+    clas += (typeof this.props.suggest.label) !== 'string' ? 'invalidate' : '';
     return (// eslint-disable-line no-extra-parens
       <li className={clas}
         onClick={this.onClick}>
