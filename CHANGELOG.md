@@ -1,3 +1,6 @@
+## 2.0.0 (2016-02-25)
+resolve tag issue
+
 ## 1.10.0 (2016-02-25)
 * successful release
 
