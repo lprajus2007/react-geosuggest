@@ -1,24 +1,6 @@
 ## 2.0.0 (2016-02-25)
 resolve tag issue
 
-## 1.10.0 (2016-02-25)
-* successful release
-
-## 1.10.0 (2016-02-25)
-* final release with google logo
-
-## 1.10.0 (2016-02-25)
-* failed with minor errors
-
-## 1.10.0 (2016-02-25)
-* latest build with powered by google logo
-
-## 1.10.0 (2016-02-25)
-
-
-## 1.10.0 (2015-09-29)
-
-
 #### Bug Fixes
 
 * prevent form submit on enter press ([dda86a12](https://github.com/ubilabs/react-geosuggest/commit/dda86a124a68ccf03220afb5f1796e99f183713e), closes [#49](https://github.com/ubilabs/react-geosuggest/issues/49))
