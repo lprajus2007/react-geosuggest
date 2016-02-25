@@ -1,6 +1,6 @@
 {
   "name": "react-geosuggest",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "A React autosuggest for the Google Maps Places API.",
   "main": "module/Geosuggest.js",
   "author": "Robert Katzki <katzki@ubilabs.net>",
@@ -8,10 +8,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ubilabs/react-geosuggest.git"
+    "url": "https://github.com/lprajus2007/react-geosuggest.git"
   },
   "bugs": {
-    "url": "https://github.com/ubilabs/react-geosuggest/issues"
+    "url": "https://github.com/lprajus2007/react-geosuggest/issues"
   },
   "peerDependencies": {
     "react": "^0.13.1"

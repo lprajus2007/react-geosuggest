@@ -1,3 +1,6 @@
+### 2.0.2 (2016-02-25)
+new patch
+
 ### 2.0.1 (2016-02-25)
 * resolve issue with patch
 
