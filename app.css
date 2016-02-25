@@ -98,6 +98,14 @@ h1 {
 /**
  * The geosuggest module
  */
+.poweredByGoogle {
+  width: 144px;
+  height: 21px;
+  float: right;
+  background-image: url('//developers.google.com/places/documentation/images/powered-by-google-on-white.png');
+  background-repeat: no-repeat;
+}
+
 .geosuggest {
   font-size: 18px;
   font-size: 1rem;
