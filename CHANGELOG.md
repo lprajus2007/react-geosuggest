@@ -1,3 +1,12 @@
+## 1.10.0 (2016-02-25)
+* failed with minor errors
+
+## 1.10.0 (2016-02-25)
+* latest build with powered by google logo
+
+## 1.10.0 (2016-02-25)
+
+
 ## 1.10.0 (2015-09-29)
 
 
